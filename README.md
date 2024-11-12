@@ -1,5 +1,3 @@
-```markdown
-
 ```bash
 koal-openvpn-setup
 │
@@ -20,8 +18,6 @@ koal-openvpn-setup
     └── SECURITY.md           # Security considerations and tips
 
 ```
-```
-
 
 ```markdown
 # OpenVPN Setup Guide on Arch Linux with KDE Plasma
@@ -50,6 +46,8 @@ This project provides a complete guide to setting up an OpenVPN server on Arch L
 ### Installation
 
 1. Clone the repository:
+```
+
 
 ```bash
    git clone https://github.com/pcpetty/koal-openvpn-setup.git
@@ -58,7 +56,9 @@ This project provides a complete guide to setting up an OpenVPN server on Arch L
 ```
 ```markdown
 2. Run the installation script:
+```
 
+```bash
 sudo bash scripts/install-openvpn.sh
 
 ```
@@ -67,10 +67,10 @@ sudo bash scripts/install-openvpn.sh
 
 For VPN security practices, see SECURITY.md.
 
-
 ### 3.
 
 #### **install-openvpn.sh** (Automated Setup Script)
+```
 
 ```bash
 #!/bin/bash
@@ -102,8 +102,3 @@ sudo systemctl start openvpn@server
 
 echo "OpenVPN installed and server started."
 ```
-
-```
-
-
-
